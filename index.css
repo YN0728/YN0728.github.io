@@ -1,0 +1,166 @@
+body {
+	display: flex;
+	background-color: darkgrey;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+.container {
+	width: 600px;
+	margin: auto;
+	padding-top: calc((100vh - 486px) / 2);
+}
+
+.column{
+	height: 100%;
+	float: left;
+	background-color: lightyellow;
+	padding: 0 20px;
+	box-shadow: 0 1px 3px 0 #D4D4D5, 0 0 0 1px #D4D4D5;
+	border-radius: 0.3em;
+}
+
+
+.image-container {
+	float: left;
+	height: 200px;
+	display: block;
+	width: 100%;
+	margin-top: -100px;
+	margin-bottom: 30px;
+}
+
+.prof-img {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	object-fit: cover;
+	position: absolute;
+	left: calc((100% - 200px) / 2);
+}
+
+.info-container {
+	text-align: center;
+}
+
+.info {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	color: rgba(0, 0, 0, 0.78);
+	line-height: 1.5;
+	/*background-color: white;*/
+}
+
+.bio {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+
+.ui-middle-aligned{
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.bio a {
+	width: 100px;
+	height: 40px;
+	margin-bottom: 20px;
+	line-height: 53px;
+	border-bottom: 4px solid #999;
+	padding-left: 5px;
+	color: #333;
+	text-decoration: none;
+	display: block;
+	-webkit-transition: .2s all linear;
+	-moz-transition: .2s all linear;
+	-o-transition: .2s all linear;
+	transition: .2s all linear;
+}
+.bio a:hover {
+	border-bottom: 35px solid #999;
+	height: 9px;
+	cursor: pointer;
+}
+
+.bio .cv a, .cv a:hover{ border-color: #728a93; }
+.bio .projects a, .projects a:hover { border-color: #98b586; }
+.bio  .essays a, .essays a:hover { border-color: #d4b989; }
+
+
+.name{
+	font-size: 1.3em;
+}
+.status{
+	font-size: 1em;
+	color: rgba(0,0,0,.4);
+	margin: 10px auto 15px;
+}
+
+.fa {
+	padding: 20px;
+	/*font-size: 60px;*/
+	width: 20px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-facebook {
+	color: rgba(0, 0, 0, 0.71);
+}
+
+.fa-linkedin {
+	color: rgba(0, 0, 0, 0.71);
+}
+
+.fa-github{
+	color: rgba(0, 0, 0, 0.71);
+}
+
+
+#CVDIV{
+	display: none;
+	float: left;
+	height: 50px;
+	width: 100%;
+	margin-top: 1px;
+	background-color: #728a93;
+	box-shadow: 0 1px 3px 0 #728a93, 0 0 0 1px #728a93;
+	border-radius: 0.3em;
+}
+/*#b5656a*/
+#projectsDIV{
+	display: none;
+	float: left;
+	height: 50px;
+	width: 100%;
+	margin-top: 1px;
+	background-color: #98b586;
+	box-shadow: 0 1px 3px 0 #98b586, 0 0 0 1px #98b586;
+	border-radius: 0.3em;
+}
+
+#essaysDIV{
+	display: none;
+	float: left;
+	height: 50px;
+	width: 100%;
+	margin-top: 1px;
+	background-color: #d4b989;
+	box-shadow: 0 1px 3px 0 #d4b989, 0 0 0 1px #d4b989;
+	border-radius: 0.3em;
+}
+.dropdowns{
+	text-align: center;
+}
