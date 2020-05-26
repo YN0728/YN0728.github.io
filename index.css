@@ -6,6 +6,7 @@ body {
 	width: 100%;
 }
 .container {
+	position: relative;
 	width: 600px;
 	margin: auto;
 	padding-top: calc((100vh - 486px) / 2);
@@ -19,7 +20,6 @@ body {
 	box-shadow: 0 1px 3px 0 #D4D4D5, 0 0 0 1px #D4D4D5;
 	border-radius: 0.3em;
 }
-
 
 .image-container {
 	float: left;
@@ -58,7 +58,6 @@ body {
 	align-items: center;
 	justify-content: space-around;
 }
-
 
 .ui-middle-aligned{
 	margin-left: auto;
@@ -135,8 +134,8 @@ body {
 	height: 50px;
 	width: 100%;
 	margin-top: 1px;
-	background-color: #728a93;
-	box-shadow: 0 1px 3px 0 #728a93, 0 0 0 1px #728a93;
+	background-color: #839ba4;
+	box-shadow: 0 1px 3px 0 #839ba4, 0 0 0 1px #839ba4;
 	border-radius: 0.3em;
 }
 /*#b5656a*/
@@ -161,6 +160,17 @@ body {
 	box-shadow: 0 1px 3px 0 #d4b989, 0 0 0 1px #d4b989;
 	border-radius: 0.3em;
 }
+
+.wordLink{
+	text-decoration: none;
+	color: gray;
+}
+.wordLink:hover{
+	color: white;
+	transition: 0.3s;
+}
+
+
 .dropdowns{
 	text-align: center;
 }

@@ -1,6 +1,5 @@
 function openProjects() {
 
-	// let projects = document.getElementById("projectsDIV")).
 	let projects = document.getElementById("projectsDIV");
 	let cv = document.getElementById("CVDIV");
 	let essays = document.getElementById("essaysDIV");
