@@ -52,8 +52,14 @@ function openResume() {
 
 function openModal() {
 	document.querySelector(".bg-modal").style.display = "flex";
+	let audio = document.getElementById("audio");
+	audio.play();
 }
 
 function clickClose() {
 	document.querySelector(".bg-modal").style.display = "none";
+	let audio = document.getElementById("audio");
+	audio.pause();
+	audio.currentTime = 0;
+
 }
