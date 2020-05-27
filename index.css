@@ -207,13 +207,7 @@ body {
 	position: relative;
 	box-shadow:
 		0 0 60px 30px #fff,
-		/*0 0 100px 60px #b2b2b2,*/
-		/*!*0 0 100px 60px #f0f,*!*/
-		/*0 0 140px 90px #0ff;*/
-		/*0 0 100px 60px #ff00cdde,*/
-		/*0 0 140px 90px #fffe00;*/
 		0 0 100px 60px #00ff9ca1, 0 0 140px 90px #3a00ff80;
-	/*transition: opacity 3s cubic-bezier(0.22, 0.61, 0.36, 1);*/
 }
 
 .new {
