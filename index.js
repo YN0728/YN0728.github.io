@@ -9,7 +9,7 @@ function openProjects() {
 	if (essays.style.display !== "none") {
 		essays.style.display = "none";
 	}
-	if (window.getComputedStyle(projects).getPropertyValue('display')=== "none") {
+	if (window.getComputedStyle(projects).getPropertyValue('display') === "none") {
 		projects.style.display = "block";
 	} else {
 		projects.style.display = "none";
@@ -48,4 +48,12 @@ function openResume() {
 	} else {
 		cv.style.display = "none";
 	}
+}
+
+function openModal() {
+	document.querySelector(".bg-modal").style.display = "flex";
+}
+
+function clickClose() {
+	document.querySelector(".bg-modal").style.display = "none";
 }
